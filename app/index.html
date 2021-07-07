@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Webuywow</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 d-flex align-items-center flex-wrap">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+        <div class="location">
+          <div class="location-icon"><img src="img/location.svg" alt=""></div>
+          <div class="location-text">Perú</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 d-none d-md-flex flex-wrap">
+        <ul class="menu">
+          <li><a href="#" class="go_to">Principal</a></li>
+          <li><a href="#" class="go_to">Sobre Nosotros</a></li>
+          <li><a href="#" class="go_to">Envío</a></li>
+          <li><a href="#" class="go_to">Contáctenos</a></li>
+          <li><a href="#" class="go_to">Oferta</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 d-flex d-sm-none">
+        <div class="btn-burger"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="main-content">
+          <h3 class="color-pink">¡Es la Hora</h3>
+          <h1>DE RESTAURAR SU VISIÓN!</h1>
+          <ul class="main-advantages">
+            <li>
+              <div class="main-advantages__icon"><img src="img/eye.svg" alt=""></div>
+              <p>Alivia la tensión y el dolor en los ojos
+                en 5 minutos</p>
+            </li>
+            <li>
+              <div class="main-advantages__icon"><img src="img/optometry.svg" alt=""></div>
+              <p>Restaura el 99% de la visión desde el primer día</p>
+            </li>
+            <li>
+              <div class="main-advantages__icon"><img src="img/eye2.svg" alt=""></div>
+              <p>Previene el desarrollo de enfermedades oculares y la discapacidad visual</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="main-product">
+          <div class="price">
+            <div class="old-price">260 PEN</div>
+            <div class="new-price">130 PEN</div>
+          </div>
+          <div class="product-img"><img src="img/product.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="callback-box">
+          <h4>Si lo ordena ahora, podrá llevarse <span class="color-pink">un inceíble 50% de descuento</span></h4>
+
+          <form method="post" class="form">
+            <label>
+              <select class="select" name="select">
+                <option value="Perú">Perú</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+            </label>
+            <label>
+              <input type="text" placeholder="Ingrese su nombre" name="name">
+            </label>
+            <label>
+              <input type="text" placeholder="Ingrese su número de teléfono" name="phone">
+            </label>
+            <button type="submit" class="btn btn-blue">Ordenar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<section class="reasons">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 order-md-1">
+        <h2>¿SU VISIÓN
+          EMPEORA
+          CADA DÍA?</h2>
+        <div class="box-text">
+          <p>Lo principal para tener una visión normal es una buena elasticidad del cristalino. Desafortunadamente, esta
+            cualidad disminuye bajo la influencia de múltiples factores:</p>
+        </div>
+        <ul class="list-attention font-600 color-pink font-20">
+          <li>Edad</li>
+          <li>Demasiada tensión en los ojos</li>
+          <li>Diversos procesos patológicos (a menudo inflamatorios)</li>
+          <li>Insuficiente suministro de sangre</li>
+          <li>Miastenia grave y debilidad muscular</li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+        <div class="reasons-img"><img src="img/img1.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reasons">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 order-md-1">
+        <h2>¡LA CAUSA PRINCIPAL DE LA BAJA VISIÓN ES EL MAL FUNCIONAMIENTO DE
+          LOS MÚSCULOS DE LOS OJOS!</h2>
+
+        <ul class="list-attention">
+          <li>El sistema muscular enfoca los ojos de tal manera que la imagen que pasa a través del cristalino se
+            proyecta en la retina.
+          </li>
+          <li>Demasiada tensión en los ojos</li>
+          <li>Diversos procesos patológicos (a menudo inflamatorios)</li>
+          <li>Insuficiente suministro de sangre</li>
+          <li>Miastenia grave y debilidad muscular</li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+        <div class="reasons-img"><img src="img/img2.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reasons">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 order-md-1">
+        <h3 class="color-pink">Las lentes y lentes de contacto</h3>
+        <h2>NO PODRÁN AYUDARLE</h2>
+        <div class="box-text">
+          <p>Relajan los músculos del ojo, lo que conduce a su deformación y solo exacerba el problema.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+        <div class="reasons-img"><img src="img/img3.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-product">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2><span class="color-pink">OCELLUS</span> - ES UN PRODUCTO INNOVADOR PARA
+          RESTAURAR LA VISIÓN</h2>
+        <div class="box-text">
+          <p>Ocellus es un tipo de nutriente extraído de forma natural que tiene un efecto directo en la visión reducida
+            y trata por completo las enfermedades más comunes del ojo humano</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="about-product-wrapper">
+          <div class="about-product-item about-product-item1">
+            <h3>Luteína</h3>
+            <p>Protege la retina de diversas influencias externas</p>
+          </div>
+          <div class="about-product-item about-product-item2">
+            <h3>Zeaxantina</h3>
+            <p>Ayuda a mantener sanos los músculos del ojo y reduce la fatiga</p>
+          </div>
+          <div class="about-product-item about-product-item3">
+            <h3>Vitaminas</h3>
+            <p>Mejoran la claridad de los ojos</p>
+          </div>
+          <div class="about-product-item about-product-item4">
+            <h3>Minerales</h3>
+            <p>Fortalecen los capilares y las venas oculares</p>
+          </div>
+          <div class="about-product-img">
+            <div class="about-product-img__circle"></div>
+            <img src="img/product.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 offset-lg-3">
+        <div class="about-product-total">
+          <p>Es el único producto que regula la función de los músculos del globo ocular, ayuda a restablecer el enfoque
+            y a obtener una visión clara, brillante y tridimensional.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="technology">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <h2>NUEVA TECNOLOGÍA:
+          SOPORTE MUSCULAR DE LOS OJOS</h2>
+
+        <h3 class="color-pink">Los músculos se fortalecen y dejan de deformar el globo ocular</h3>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 offset-lg-1">
+        <ul class="list-check">
+          <li>Alivia la inflamación, la tensión, la sequedad y la irritación,</li>
+          <li>Mejora la agudeza visual, fortalece la retina del ojo</li>
+          <li>Estimula las sinapsis nerviosas que proporcionan una visión clara</li>
+          <li>Mejora la capacidad de respuesta de los músculos al estrés, reduce
+            y previene la hipertonicidad
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 offset-lg-1">
+        <ul class="list-check">
+          <li>Asegura el correcto enfoque del cristalino</li>
+          <li>Fortalece la circulación sanguínea capilar</li>
+          <li>Elimina el riesgo de desarrollar enfermedades oculares peligrosas</li>
+          <li>Normaliza la presión arterial en el fondo del ojo.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="when-needed p-120">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>¿CUÁNDO NECESITA OCELLUS?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mt-60">
+        <div class="when-needed-box">
+          <div class="num">01</div>
+          <div class="when-needed-box__img"><img src="img/when1.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Visión baja y borrosa</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mt-60">
+        <div class="when-needed-box">
+          <div class="num">02</div>
+          <div class="when-needed-box__img"><img src="img/when2.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Diversas enfermedades y patologías del aparato visual</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mt-60">
+        <div class="when-needed-box">
+          <div class="num">03</div>
+          <div class="when-needed-box__img"><img src="img/when3.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Sensación frecuente de ardor, arenilla y enrojecimiento de los ojos</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mt-60">
+        <div class="when-needed-box">
+          <div class="num">04</div>
+          <div class="when-needed-box__img"><img src="img/when4.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Si lleva lentes o lentes de contacto</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mt-60">
+        <div class="when-needed-box">
+          <div class="num">05</div>
+          <div class="when-needed-box__img"><img src="img/when5.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Si tiene dolores de cabeza que muchos consideran migrañas o presión arterial alta</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mt-60">
+        <div class="when-needed-box">
+          <div class="num">06</div>
+          <div class="when-needed-box__img"><img src="img/when6.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Fatiga ocular rápida y disminución general del rendimiento visual</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mt-60">
+        <div class="when-needed-box">
+          <div class="num">07</div>
+          <div class="when-needed-box__img"><img src="img/when7.jpeg" alt=""></div>
+          <div class="when-needed-box__body">
+            <p>Si tiene predisposición genética, si su familia tiene problemas de visión</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="research">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="research-wrapper">
+          <div class="row">
+            <div class="col-12 col-lg-5">
+              <div class="research-content">
+                <h2>¿QUÉ MUESTRAN LOS ESTUDIOS?</h2>
+                <div class="box-text">
+                  <p>Este producto fue probado por los centros de investigación y hospitales más importantes de Rusia,
+                    Alemania e Israel.</p>
+                  <div class="person-box">
+                    <h5>2570</h5>
+                    <p>personas</p>
+                  </div>
+                  <p>En los ensayos clínicos del producto participaron 2.570 voluntarios. Todos tenían alteraciones
+                    visuales
+                    causadas por fatiga ocular excesiva o enfermedades oculare</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="research-box">
+                <h3>Todos ellos estuvieron tomando una cápsula de Ocellus cada día durante 31 días</h3>
+
+                <ul class="list-research">
+                  <li>
+                    <p>Ojos rojos, <br>con picazón y dolor</p>
+                    <div class="line-val"></div>
+                    <div class="research-val">100%</div>
+                  </li>
+                  <li>
+                    <p>No más ojos cansados ​​después de trabajar frente a la pantalla durante 8 horas o más</p>
+                    <div class="line-val w99-5"></div>
+                    <div class="research-val">99.5%</div>
+                  </li>
+                  <li>
+                    <p>Reducción del desprendimiento de la retina</p>
+                    <div class="line-val w92"></div>
+                    <div class="research-val">92%</div>
+                  </li>
+                  <li>
+                    <p>Recuperación de la visión después del glaucoma y de las cataratas de nivel 1-2</p>
+                    <div class="line-val w74"></div>
+                    <div class="research-val">74%</div>
+                  </li>
+                  <li>
+                    <p>Recuperación tras una queratitis corneal</p>
+                    <div class="line-val w92-5"></div>
+                    <div class="research-val">92.5%</div>
+                  </li>
+                  <li>
+                    <p>Aumento de las concentraciones de taurina y luteína hasta unos niveles saludables</p>
+                    <div class="line-val w100"></div>
+                    <div class="research-val">100%</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="result">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>resultado de la aplicación OCELLUS</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="result-box">
+          <h3>Pedro Escobar</h3>
+          <div class="result-box-images">
+            <div class="result-box-images__img">
+              <div class="img img-after"><img src="img/result1.jpeg" alt=""></div>
+              <p>Antes</p>
+            </div>
+            <div class="result-box-images__img">
+              <div class="img"><img src="img/result1.jpeg" alt=""></div>
+              <p>31 días después</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="result-box">
+          <h3>Rocío Olmedo</h3>
+          <div class="result-box-images">
+            <div class="result-box-images__img">
+              <div class="img img-after"><img src="img/result1.jpeg" alt=""></div>
+              <p>Antes</p>
+            </div>
+            <div class="result-box-images__img">
+              <div class="img"><img src="img/result1.jpeg" alt=""></div>
+              <p>31 días después</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="expert p-120">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-7 order-lg-1 offset-lg-1">
+        <h2>OPINIÓN EXPERTA</h2>
+
+        <div class="expert-text">
+          <p>En los últimos años, la cantidad de personas con pérdida de visión ha aumentado 18 veces. Muchos de mis
+            pacientes están en pánico y me piden que les recete lentes y lentes de contacto, aunque no entienden que
+            dicha medida empeora aún más la situación, afectando negativamente al ojo humano.</p>
+          <p>Actualmente, es posible resolver el problema con otros productos. Para ello, se creó Ocellus. Se lo
+            recomiendo a todos mis pacientes y, en el 99% de los casos, pueden volver a disfrutar de una visión clara y
+            brillante después de 1 solo ciclo de tratamiento.</p>
+          <p>Este producto contiene una combinación única de ingredientes que restauran el funcionamiento de los
+            músculos
+            del ojo y mejoran la condición del cristalino, que son los principales factores de una buena visión.
+            Combinado con ejercicios oculares, este tratamiento proporciona resultados seguros en el menor tiempo
+            posible y ayuda a evitar la intervención quirúrgica.</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="expert-img">
+          <img src="img/doc.png" alt="">
+          <p>Experto en restauración de la visión</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>ELLOS YA HAN RESTAURADO SU VISIÓN CON LA AYUDA DE OCELLUS</h2>
+      </div>
+    </div>
+
+    <div class="row reviews-slider">
+      <div class="col-12 col-lg-4">
+        <div class="reviews-box">
+          <div class="reviews-box__photo"><img src="img/reviews1.jpeg" alt=""></div>
+          <div class="reviews-box__body">
+            <div class="blockquote">
+              <p>Tuve miopía extrema durante muchos años y solo podía ver con un ojo. Soy
+                pianista, la música es la mayor alegría de mi vida, pero ni siquiera podía distinguir las notas. No
+                podía llevar lentes por más de 15-20 minutos porque me
+                provocaban terribles dolores de cabeza. Decidí ordenar Ocellus porque escuché
+                que este producto ayuda a restaurar la visión, pero en mi difícil caso solo
+                podía rezar por un milagro. Sin embargo, un mes después logré resultados
+                sorprendentes. Restauré mi visión casi por completo. Mi optometrista dijo que
+                nunca había visto tal progreso antes. ¡Y ahora se lo recomienda a todos sus
+                pacientes!</p>
+            </div>
+            <div class="name-user">Rocío Olmedo</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="reviews-box">
+          <div class="reviews-box__photo"><img src="img/reviews2.jpeg" alt=""></div>
+          <div class="reviews-box__body">
+            <div class="blockquote">
+              <p>Soy programador y el trabajo constante frente a la pantalla empeoró gravemente
+                mi visión. Llegué a tal punto que comencé a ver todo borroso. Estaba
+                constantemente atormentado por los dolores de cabeza debido a la tensión en los
+                ojos. Me di cuenta de la gravedad de la situación cuando ya no podía trabajar
+                más, mis ojos ya no podían discernir las letras pequeñas en la pantalla. Me tomé
+                unas vacaciones y ordené Ocellus. Comencé a tomar este producto y le di a mis
+                ojos 2 semanas de descanso de la computadora. También hice gimnasia ocular 15
+                minutos todos los días. Por supuesto, me impresionaron los resultados. ¡Ahora
+                puedo ver todo muy claro! ¡De ahora en adelante, siempre voy a cuidar mi visión!</p>
+            </div>
+            <div class="name-user">Pedro Escobar</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="reviews-box">
+          <div class="reviews-box__photo"><img src="img/reviews3.jpeg" alt=""></div>
+          <div class="reviews-box__body">
+            <div class="blockquote">
+              <p>Descubrí Ocellus gracias a los pacientes de mi clínica y decidí ordenarlo. ¿Por
+                qué no probarlo? La edad pasa factura, así que a menudo tenía que llevar
+                lentes. De lo contrario, ni siquiera podría leer los números de los
+                autobuses. Mi optometrista no estaba muy contento con mis pruebas: comencé a
+                tener problemas con la retina. Dicen que Ocellus se puede usar para tratar casi todos los problemas
+                oculares. ¿Qué puedo decir? ¡Este producto es
+                maravilloso! Ahora puedo ver todo mucho mejor, incluso puedo ver cosas que están
+                lejos. ¡Así que definitivamente lo recomiendo!</p>
+            </div>
+            <div class="name-user">Melania González</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ocellus p-120">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-4 offset-lg-1">
+        <h3 class="color-pink">¡CUIDADO CON LAS IMITACIONES DE</h3>
+        <h2>OCELLUS!</h2>
+        <div class="box-text">
+          <p>Para evitar los productos falsos y de imitación de baja calidad, solo compre el producto original en este
+            sitio web .</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 offset-lg-1">
+        <div class="ocellus-image">
+          <h3>100% CALIDAD GARANTIZADA</h3>
+          <img src="img/product2.png" alt="" class="ocellus-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stages-orders">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <h2>¿LISTO PARA ORDENAR OCELLUS?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-2 offset-lg-2">
+        <div class="stages-orders-box">
+          <div class="stages-orders-box__icon"><img src="img/mail.svg" alt=""></div>
+          <p>Complete el formulario re orden más abajo</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-2 offset-lg-1">
+        <div class="stages-orders-box">
+          <div class="stages-orders-box__icon"><img src="img/phone.svg" alt=""></div>
+          <p>Espre la llamada de nuestro operador para confirmar la orden</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-2 offset-lg-1">
+        <div class="stages-orders-box">
+          <div class="stages-orders-box__icon"><img src="img/delivery.svg" alt=""></div>
+          <p>¡Trabajamos sin pago anticipado! Usted paga su orden solamente cuando la recibe</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="call">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="main-content">
+          <h3 class="color-pink">¡Es la Hora</h3>
+          <h2>DE RESTAURAR SU VISIÓN!</h2>
+          <ul class="main-advantages">
+            <li>
+              <div class="main-advantages__icon"><img src="img/eye.svg" alt=""></div>
+              <p>Alivia la tensión y el dolor en los ojos
+                en 5 minutos</p>
+            </li>
+            <li>
+              <div class="main-advantages__icon"><img src="img/optometry.svg" alt=""></div>
+              <p>Restaura el 99% de la visión desde el primer día</p>
+            </li>
+            <li>
+              <div class="main-advantages__icon"><img src="img/eye2.svg" alt=""></div>
+              <p>Previene el desarrollo de enfermedades oculares y la discapacidad visual</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="main-product">
+          <div class="price">
+            <div class="old-price">260 PEN</div>
+            <div class="new-price">130 PEN</div>
+          </div>
+          <div class="product-img"><img src="img/product.png" alt=""></div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <div class="callback-box">
+          <h4>Si lo ordena ahora, podrá llevarse <span class="color-pink">un inceíble 50% de descuento</span></h4>
+
+          <form method="post" class="form">
+            <label>
+              <select class="select" name="select">
+                <option value="Perú">Perú</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+            </label>
+            <label>
+              <input type="text" placeholder="Ingrese su nombre" name="name">
+            </label>
+            <label>
+              <input type="text" placeholder="Ingrese su número de teléfono" name="phone">
+            </label>
+            <button type="submit" class="btn btn-blue">Ordenar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="footer-box">
+            <h3>CONTACTO</h3>
+            <p>843341614397</p>
+            <a href="mailto:customerservice@webuywows.store" class="mail">customerservice@webuywows.store</a>
+            <div class="address">Shanghai Mojing Technology Room JT4114, No. 7, Lane 129, Huajiang Road, Jiading
+              District, Shanghai, 201803
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="footer-box">
+            <h3>SOBRE LA EMPRESA</h3>
+            <ul class="footer-menu">
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="#">Condiciones de uso</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="footer-box">
+            <h3>ENVÍO Y DEVOLUCIONES</h3>
+            <ul class="footer-menu">
+              <li><a href="#">Envío y pago</a></li>
+              <li><a href="#">Devoluciones</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+          <div class="copyright">© 2021 WEBUYWOWS. Todos los derechos reservados</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <ul class="list-pay">
+            <li><a href="#"><img src="img/mastercard.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/stripe.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/visa.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
