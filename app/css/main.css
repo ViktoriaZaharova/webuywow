@@ -209,7 +209,7 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 3;
+  z-index: 5;
   width: 100%;
   padding: 40px 0; }
 
@@ -1164,8 +1164,80 @@ footer {
   max-width: 302px;
   width: 100%; }
 
+.mobile-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  padding: 140px 20px 59px;
+  display: none;
+  background: #fff;
+  width: 100%;
+  overflow: hidden; }
+  .mobile-menu:before {
+    content: '';
+    position: absolute;
+    left: -450px;
+    top: 0;
+    width: 2260px;
+    height: 100%;
+    min-height: 1280px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70.47%, rgba(255, 255, 255, 0)), to(#FFFFFF)), url("../img/bg1.jpeg") no-repeat center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70.47%, #FFFFFF 100%), url("../img/bg1.jpeg") no-repeat center;
+      background-size: cover;
+    opacity: .5;
+    z-index: -2; }
+  .mobile-menu .menu {
+    font-size: 20px; }
+    .mobile-menu .menu li {
+      margin: 0 0 20px;
+      width: 100%; }
+  .mobile-menu .location {
+    margin: 38px 0 0;
+    font-size: 20px; }
+
+.overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #2E2E2E;
+  opacity: 0.9;
+  z-index: 3; }
+
+.btn-burger {
+  position: relative;
+  width: 34px;
+  height: 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  background: url("../img/burger.svg") no-repeat center;
+    background-size: 100%; }
+
+.clicked {
+  background: url("../img/close.svg") no-repeat center;
+    background-size: 100%;
+  width: 24px;
+  height: 24px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1360px) {
+  .callback-box {
+    padding: 30px; } }
+
 @media only screen and (max-width: 1300px) {
   .about-product-item1 {
     left: 50px; }
@@ -1231,7 +1303,17 @@ footer {
       margin: 0; }
   .about-product-total {
     margin: 20px auto 0;
-    padding: 20px; } }
+    padding: 20px; }
+  .callback-box label {
+    margin: 0 0 10px;
+    max-width: 280px; }
+  .menu li {
+    margin: 0 15px 0 0; }
+  .location {
+    margin: 0 0 0 30px; }
+  .main-product:before {
+    width: 600px;
+    height: 600px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -1382,7 +1464,41 @@ footer {
       margin: 0 0 15px; }
   .technology h3 {
     font-size: 18px;
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+  .callback-box {
+    padding: 30px 27px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto; }
+    .callback-box .form {
+      max-width: 280px;
+      margin: 0 auto; }
+    .callback-box .btn {
+      width: 100%; }
+  main:before {
+    height: 100%; }
+  main {
+    padding: 140px 0 40px; }
+  .price {
+    top: -18px;
+    left: 0;
+    z-index: 1; }
+  .product-img {
+    margin: 0 0 0 32px;
+    min-width: 320px;
+    position: relative;
+    z-index: 2; }
+  .main-product {
+    max-width: 320px;
+    margin: 0 auto 20px; }
+    .main-product:before {
+      width: 320px;
+      height: 320px;
+      left: 0;
+      bottom: 0; }
+  .main-content {
+    margin: 0 0 35px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -1430,7 +1546,13 @@ footer {
   .reasons-img {
     margin: 20px auto 0; }
   .font-20 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  header .location {
+    display: none; }
+  .btn-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {

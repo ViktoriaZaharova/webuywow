@@ -23,3 +23,9 @@ $(window).on('load resize', function() {
     }
 });
 // slick active
+
+$('.btn-burger').on('click', function () {
+   $(this).toggleClass('clicked');
+   $('.overlay').fadeToggle();
+   $('.mobile-menu').fadeToggle();
+});

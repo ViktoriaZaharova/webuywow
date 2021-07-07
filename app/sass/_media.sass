@@ -3,6 +3,10 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1360px)
+  .callback-box
+    padding: 30px
+
 @media only screen and (max-width : 1300px)
   .about-product-item1
     left: 50px
@@ -91,6 +95,21 @@
   .about-product-total
     margin: 20px auto 0
     padding: 20px
+
+  .callback-box
+    label
+      margin: 0 0 10px
+      max-width: 280px
+
+  .menu li
+    margin: 0 15px 0 0
+
+  .location
+    margin: 0 0 0 30px
+
+  .main-product:before
+    width: 600px
+    height: 600px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
@@ -253,6 +272,45 @@
       font-size: 18px
       margin: 0 0 30px
 
+  .callback-box
+    padding: 30px 27px
+    width: fit-content
+    margin: 0 auto
+    .form
+      max-width: 280px
+      margin: 0 auto
+    .btn
+      width: 100%
+
+  main:before
+    height: 100%
+
+  main
+    padding: 140px 0 40px
+
+  .price
+    top: -18px
+    left: 0
+    z-index: 1
+
+  .product-img
+    margin: 0 0 0 32px
+    min-width: 320px
+    position: relative
+    z-index: 2
+
+  .main-product
+    max-width: 320px
+    margin: 0 auto 20px
+    &:before
+      width: 320px
+      height: 320px
+      left: 0
+      bottom: 0
+
+  .main-content
+    margin: 0 0 35px
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
   .list-pay
@@ -316,6 +374,13 @@
 
   .font-20
     font-size: 18px
+
+  header
+    .location
+      display: none
+
+  .btn-burger
+    display: flex
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 576px)
